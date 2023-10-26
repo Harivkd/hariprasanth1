@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birth Certificate Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Birth Certificate Application</h1>
+    </header>
+    <div class="container">
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="place">Place of Birth:</label>
+            <input type="text" id="place" name="place" required>
+            <label for="Gender">Gender:</label>
+            <input type="text" id="place"
+                name="Gender" required >
+            </label>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
